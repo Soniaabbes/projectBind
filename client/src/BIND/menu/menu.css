@@ -1,0 +1,57 @@
+.stylish-menu {
+  width: 150px;
+  background: linear-gradient(135deg,#f7f7f7, #cdcdcd
+);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.stylish-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stylish-menu li {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.stylish-menu a {
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif; /* Police propre et lisible */
+  font-size: 1rem; /* Taille du texte pour un impact visuel */
+  color: #333; /* Couleur sombre mais douce pour le texte */
+  text-align: left; /* Alignement du texte à gauche */
+  letter-spacing: 0.05em; /* Espacement entre les lettres pour une meilleure lisibilité */
+  text-transform: uppercase; /* Conversion du texte en majuscules pour plus d'impact */
+  
+    
+padding: 15px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.stylish-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+
+
+.stylish-menu .text {
+  font-weight: 400;
+  
+}
+
+
+
+
+  

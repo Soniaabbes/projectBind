@@ -3,16 +3,18 @@ import './App.css';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './BIND/NavBar';
-import AvantFooter from './BIND/AvantFooter';
-import Footer from './BIND/Footer';
-import {BrowserRouter, Route, Routes}from "react-router-dom";
-import Home from './BIND/Home';
-import Researchers from './BIND/Researchers';
-import Events from './BIND/Events';
-import OutComes from './BIND/OutComes';
-import Cidals from './BIND/Cidals'
+import NavBar from './BIND/NavBar/NavBar';
+import AvantFooter from './BIND/AvantFooter/AvantFooter';
 
+import {BrowserRouter, Route, Routes}from "react-router-dom";
+import Home from './BIND/Home/Home';
+import Researchers from './BIND/researchers/Researchers';
+import Events from './BIND/Event/Events';
+import OutComes from './BIND/Outcomes/OutComes';
+import Cidals from './BIND/Outcomes/Cidals'
+import Events2 from './BIND/Event/Events2';
+import Footer1 from './BIND/Footer/Footer1'
+import NotFound from './BIND/NotFound/NotFound';
 
 
 function App() {
@@ -20,9 +22,9 @@ function App() {
     <BrowserRouter>
     <div className="App">
      
-      <div>
+      
     <NavBar/>
-    </div>
+    
     <Routes>
       <Route path='/' element={  <Home/>}/>
       <Route path='/BIND/Outcomes' element ={<OutComes/>}/>
@@ -31,16 +33,22 @@ function App() {
       
       <Route path='/BIND/Events' element ={<Events/>}/>
       <Route path="/BIND/cidals" element= {<Cidals />}/>
-      
+      <Route path="/BIND/event2" element= {<Events2 />}/>
+      <Route path='*'
+                        element={<NotFound/>}/>
      
     </Routes>
-    <div className="AvantFooter">
+
     <AvantFooter/>
-    </div>
+    
   
-    <div>
+    {/* <div>
       <Footer className="Footer"/>
-    </div>
+    </div> */}
+   
+      <Footer1/>
+   
+   
     </div>
     </BrowserRouter>
   );

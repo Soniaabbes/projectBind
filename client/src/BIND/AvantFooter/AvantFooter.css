@@ -1,0 +1,54 @@
+
+.Avantfooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.footerImage {
+    max-width: 100%;
+    margin-right: 75px;
+}
+
+/* Ajustement pour les appareils mobiles */
+@media screen and (max-width: 768px) {
+    .Avantfooter {
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+    }
+
+    /* Réajustement des images */
+    .footerImage {
+        margin-bottom: 20px; 
+        margin-right: 0; 
+        width: 100%; 
+        height: auto; 
+    }
+
+    /* Ajustement des éléments en fonction de l'écran */
+    #IPT, #AAS, #EuropeanUnion, #AfricanUnion {
+        width: 100%;
+        height: auto; 
+    }
+}
+
+
+#AAS {
+    width: 150px;
+    height: 150px;
+}
+
+#IPT {
+    width: 270px;
+    height: 100px;
+};
+#EuropeanUnion{width: 100px; height:75px}
+
+#AfricanUnion {
+    width: 300px;
+};
+
+
