@@ -1,0 +1,77 @@
+/* navBar */
+.Navbar {
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+    margin: 0px;
+  }
+  
+ 
+  
+
+  
+  
+  
+  @media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    
+    #BIND img {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    
+    #BIND img {
+      width: 50% !important;
+      height: auto !important;
+    }
+  }
+  
+
+
+
+/* Lien par défaut */
+
+#resteNavbar .nav-link,
+#resteNavbar .nav-active {
+  font-weight: 600; /* Uniformiser le poids */
+  font-size:medium; /* Même taille pour tous les liens */
+  color:#5c5757; /* Couleur par défaut */
+  text-decoration: none; /* Pas de soulignement */
+  line-height: 1.5; /* Assurer une hauteur uniforme */
+  display: inline-flex; /* Pour gérer l'alignement horizontal */
+  align-items: center; /* Centrer verticalement */
+  padding-left:15px; /* Supprime tout espace vertical */
+  margin: 0; /* Supprime tout espace supplémentaire */
+  border: none; /* Supprime tout contour ou bordure */
+}
+
+/* Lien actif */
+#resteNavbar .nav-active {
+  color: #00ccb1;; /* Couleur du lien actif */
+}
+
+
+
+.navbar-toggler {
+  margin-left: auto; /* Pousse le bouton collapse à droite */
+  margin-right: 0; /* Supprime toute marge à droite */
+}
+
+.navbar-collapse {
+  justify-content: flex-end; /* Aligne le menu déroulant à droite */
+}
+
+.container {
+  max-width: 100%;
+  padding:0 30px;
+}
