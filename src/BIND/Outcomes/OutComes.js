@@ -40,8 +40,8 @@ function OutComes() {
 
 
                 <p className='article'> 
-              <a>
-              <p>  <BsLayers className='icon2' />Harigua-Souiai, E., Masmoudi, O., Makni, S., Oualha, R., Abdelkrim, Y.Z., Hamdi, S., Souiai, O., Guizani, I. CidalsDB: An AI-empowered platform for anti-pathogen therapeutics research. Submitted. 
+              <a href='https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00929-7' target="_blank" rel="noopener noreferrer">
+              <p>  <BsLayers className='icon2' />Harigua-Souiai, E., Masmoudi, O., Makni, S., Oualha, R., Abdelkrim, Y.Z., Hamdi, S., Souiai, O., Guizani, I. CidalsDB: An AI-empowered platform for anti-pathogen therapeutics research.
                  </p>
                  </a>
                  </p>
