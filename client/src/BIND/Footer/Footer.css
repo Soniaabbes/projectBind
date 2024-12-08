@@ -1,0 +1,219 @@
+
+#BINDF{width:200px;height:150px; cursor: pointer; padding-top: 0px; }
+
+  .footer-distributed{ 
+      background: #efefef;
+      /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12); */
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+     
+   
+      font: bold 16px sans-serif;
+      /* padding: 55px 50px; */
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+      display: inline-block;
+      vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+      width: 45%;
+      
+  }
+  
+  
+  
+ 
+ 
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+      color:  gray;
+      margin: 25px 0 0px;
+      padding: 0;
+      font-weight: 1000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .footer-distributed .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+    font-weight:400;
+      text-decoration: none;
+      color:  inherit;
+  }
+  
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{ margin-Top: 100px;
+      width: 40%;
+  }
+  
+
+  
+  
+  .footer-distributed .footer-center p{
+      display: inline-block;
+      color: gray;
+    font-weight:400;
+      vertical-align: middle;
+      margin:0;
+      font-weight: 1000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+  }
+ 
+  
+  .footer-distributed .footer-center p a{
+      color:  gray;
+      text-decoration: none;
+      font-weight: 1000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: gray;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+ 
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+      width: 10%; margin-top: 100px; 
+  }
+  
+  .footer-distributed {
+      line-height: 20px;
+      color:  gray;
+      font-size: 15px;
+      font-weight: normal;
+      margin: 0;
+      font-weight: 1000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+  }
+  
+
+  
+  .footer-distributed {
+      margin-top: 30px;
+  }
+  
+  .footer-distributed  a{
+      display: inline-block;
+      
+      cursor: pointer;
+      
+  
+      font-size: 15px;
+      color: gray;
+      text-align: center;
+      line-height: 35px;
+  
+      margin-right: 3px;
+      margin-bottom: 5px;
+  }
+  
+ 
+  
+
+ .footerImag1 {width: 150px;height:75px ; gap:"30px"  ;}
+ 
+  
+ /* Pour les écrans petits (mobiles) */
+@media screen and (max-width: 768px) {
+    .footer-distributed {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+    
+    }
+    
+    .footer-distributed .footer-center i {
+      float: none;
+    }
+    
+    .footer-distributed .footer-left p {
+      display: flex;
+      
+     
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .footer-distributed .footer-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-distributed .footer-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-distributed .footer-company-name {
+      line-height: 20px;
+    }
+  }
+  
+  /* Pour les tablettes */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer-distributed {
+      width: 80%;
+      padding: 0;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: inline-block;
+      vertical-align: top;
+      width: 33.33%;
+    }
+    
+    .footer-distributed .footer-left p {
+      display: block;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    
+    .footer-distributed .footer-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-distributed .footer-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

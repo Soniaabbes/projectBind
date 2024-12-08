@@ -1,0 +1,52 @@
+/* Menu */
+
+
+.TitleMenu a{
+    font-family: serif;
+    text-align: left;
+    
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color:  #107db4;
+    
+  }
+  .TitleMenu a:hover {
+    color: #4F959D;
+  }
+  
+  
+  .ocean {
+    width: 50%;
+    color: gray;
+    
+   
+    background-color: #f8f9fa;
+    overflow: hidden;
+    padding: 0px; 
+   padding-top: 200px;
+   margin-top: 50px;
+  
+  
+    
+    
+  }
+  .ocean1 {
+    width: 70%;
+    color: gray;
+    
+   
+    background-color: #f8f9fa;
+    overflow: hidden;
+    padding: 0px; 
+   padding-top: 200px;
+   margin-top: 50px;
+  
+  
+    
+    
+  }
+  @media (max-width: 1024px) {
+    .ocean , .ocean1 {
+      display: none;
+    }
+  }

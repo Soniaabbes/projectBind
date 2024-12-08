@@ -1,0 +1,161 @@
+/* eventCard : evennement à venir */
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Reduced gap for smaller screens */
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .event-card {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* partie 2 : past event */
+.Event2 {
+  margin: 20px; /* Reduced margin for smaller screens */
+}
+
+.colloque {
+  display: flex;
+  border: 1px solid #ccc;
+  width: 100%;
+  flex-direction: column; /* Stack vertically on smaller screens */
+}
+
+@media (min-width: 768px) {
+  .colloque {
+    flex-direction: row; /* Horizontal layout for larger screens */
+  }
+}
+
+.imgEvent { 
+  flex: 0.6; 
+  border-right: 1px solid #ccc; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#colloqueimg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.descriptionEvent { 
+  margin: 20px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: space-between;
+}
+
+.paragDiscription {
+  font-family:  Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-size: 1.1rem; /* Adjusted font size for better readability */
+  line-height: 1.6;
+  color: #383737;
+}
+
+.motDesription {
+  color: azure;
+  font-size: 0.75rem;
+  background-color: #107db4;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 500;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.mots {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+.DateetLieu {
+  display: flex;
+  font-size: medium;
+  color: #107db4;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* upcoming events */
+.UpcomingEvents {
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#commingSoon {
+  font-size: 2.5rem;
+  margin: 0.2em 0;
+  color: #007bff;
+  animation: colorTransition 0.2s infinite alternate;
+}
+
+#newEvent {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Animation for upcoming events title */
+@keyframes colorTransition {
+  0% {
+    color: #254abb;
+  }
+  25% {
+    color: #107db4;
+  }
+  50% {
+    color: #51929d;
+  }
+  100% {
+    color: #5cab92;
+  }
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .UpcomingEvents {
+    padding: 15px;
+  }
+
+  #commingSoon {
+    font-size: 2rem;
+  }
+
+  #newEvent {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .UpcomingEvents {
+    padding: 10px;
+  }
+
+  #commingSoon {
+    font-size: 1.5rem;
+  }
+
+  #newEvent {
+    font-size: 0.9rem;
+  }
+}

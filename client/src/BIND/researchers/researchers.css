@@ -1,0 +1,69 @@
+/* Researchers */
+/* Card Profile */
+.profile-card .card-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-card .card-img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .icon4 {
+    color: #787f7d;
+    width: 20px;
+  }
+  
+  /* Researchers */
+  .CardPro {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+  }
+.CardPro {
+    margin-top: 30%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  
+  @media (max-width: 1200px) {
+    .CardPro {
+      margin-right: 15%;
+      margin-left: 15%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .CardPro {
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .CardPro {
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .CardPro {
+      margin-right: 2%;
+      margin-left: 2%;
+    }
+  }
+  
+  
+  
+  
+   .outcomesavecTitle{display:flex;
+  flex-direction: column;}
+
+
+
